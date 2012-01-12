@@ -1,0 +1,142 @@
+/* ================================================================== */
+/* Created by: Konrad Kowalski <kkowalskipl@gmail.com> on DD-MM-RRRR  */
+/* ================================================================== */
+
+@charset "utf-8";
+
+/* === PageCSS ====================================================== */
+
+#panel {
+	width: 400px;
+	border: solid 1px #C4CDE0;
+	float: left;
+	position: absolute;
+	top: 150px;
+	left: 450px;
+	padding: 3px;
+	text-align: left;
+}
+	#tytul {
+		height: 50px;
+		border-bottom: solid 1px;
+		margin:15px;
+	}
+		#tytul img {
+			width: 40px;
+			height: 40px;
+			background: #000;
+			float: left;
+		}
+		#imie  {
+			width: 100px;
+			margin-top: 10px;
+			margin-left: 10px;
+			float: left;
+		}
+.niebieskie {
+	font-weight: bold;
+	color:#3B5998;
+}
+.szare {
+	font-weight: 1px;
+	color: gray;
+}
+		#album {	
+			font-size: 12px;		
+			margin-top: 15px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+	#galeria {
+		margin-top: 20px;
+	}
+	#galeria img{
+		width: 131px;
+		height: 131px;
+		background: #000;
+		display: inline-block;
+	}
+#opcje {
+	width: 380px;
+	background-color:#EDEFF4;
+	padding: 10px;
+}
+	#opcje span {
+		width: 20px;
+		height: 15px;
+		background: url(http://static.ak.fbcdn.net/rsrc.php/v1/yK/r/zyL2LyoplTJ.png) no-repeat 0px -46px;
+		float: left;
+	}
+		#opcje span a {
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+
+.nieb {
+	color: #3B5998;
+}
+
+#lubie {
+
+	width: 380px;
+	background-color:#EDEFF4;
+	padding: 10px;
+	margin-top: 1px;
+}
+#komentarz {
+
+	width: 390px;
+	background-color:#EDEFF4;
+	padding: 5px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+}
+	#komentarz img {
+		width: 40px;
+		height: 40px;
+		background: #000;
+		margin-right: 10px;
+		float: left;
+	}
+	#wiadomosc{
+		width: 300px;
+		line-height: 13px;
+	}
+	#data {
+		
+		line-height: 20px;
+	}
+#nowy {
+	width: 380px;
+	background-color:#EDEFF4;
+	padding: 10px;
+	clear: both;
+}
+#nowy img{
+	width: 40px;
+	height: 40px;
+	background: #000;
+	margin-top: 1px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#nowy textarea{
+	width: 300px;
+	height: 15px;
+	line-height: 15px;
+	color: #333;
+	border: solid 1px #C4CDE0;
+}
+#esc {width: 8px;
+height: 8px;
+line-height: 15px;
+padding: 4px;
+background: url(http://static.ak.fbcdn.net/rsrc.php/v1/yw/r/vUFtxHntqDs.png) -274px -140px;
+float: right;
+margin-top: -70px;
+}
+#esc:hover {background: #627bae url(http://static.ak.fbcdn.net/rsrc.php/v1/yw/r/vUFtxHntqDs.png) -296px -140px;
+}

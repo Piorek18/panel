@@ -1,0 +1,50 @@
+/* ================================================================== */
+/* Created by: Konrad Kowalski <kkowalskipl@gmail.com> on 06-01-2012  */
+/* ================================================================== */
+
+@charset "utf-8";
+
+/* === GlobalCSS ==================================================== */
+
+body {
+	background: #FFF;
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	text-align: center;
+	color: #000;
+}
+table {
+	width: 100%;
+}
+table, td, th {
+	border: 1px solid #000;
+	text-align: left;
+}
+table th {
+	font-weight: bold;
+	text-align: center;
+}
+div {
+	margin: 0 auto;
+}
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext, button {
+	color: #666;
+	font: inherit;
+	white-space: normal;
+}
+input, select, textarea, button {
+	border: 1px solid #000;
+}
+input[type=submit], button {
+	cursor: pointer;
+}
+input, select {
+	vertical-align: middle;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

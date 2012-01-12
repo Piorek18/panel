@@ -1,0 +1,13 @@
+/* ================================================================== */
+/* Created by: Konrad Kowalski <kkowalskipl@gmail.com> on 06-01-2012  */
+/* ================================================================== */
+
+@charset "utf-8";
+
+/* === DefaultCSS =================================================== */
+
+@import url("common/reset.css");
+@import url("common/global.css");
+@import url("common/page.css");
+
+/* @import url("subpages/.css"); */
